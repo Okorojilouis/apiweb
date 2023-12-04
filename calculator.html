@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="white">
+        <div class="black">
+            <div class="screen">
+                <div class="screen1">0</div>
+                <div class="screen2">0</div>
+            </div>
+            <div class="content">
+                <div class="flex">
+                    <button onclick="">&Sqrt;</button>
+                    <button>&pi;</button>
+                    <button>&square;</button>
+                    <button>!</button>
+                    <button>></button>
+                </div>
+                <div class="grid">
+                    <button onclick="shownumber(7)">7</button>
+                    <button onclick="shownumber(8)">8</button>
+                    <button onclick="shownumber(9)" >9</button>
+                    <button class="btn-operator">/</button>
+                    <button onclick="remove()">AC</button>
+                    <button onclick="shownumber(4)">4</button>
+                    <button onclick="shownumber(5)">5</button>
+                    <button onclick="shownumber(6)">6</button>
+                    <button class="btn-operator">*</button>
+                    <button onclick="bracket()">( )</button>
+                    <button onclick="shownumber(1)" >1</button>
+                    <button onclick="shownumber(2)">2</button>
+                    <button onclick="shownumber(3)">3</button>
+                    <button class="btn-operator">-</button>
+                    <button onclick="percentage()">%</button>
+                    <button onclick="shownumber(0)">0</button>
+                    <button onclick="dot()">.</button>
+                    <button onclick="backspace()">Del</button>
+                    <button onclick="unshift()">+/-</button>
+                    <button onclick="equals()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="calculator.js" ></script>
+</body>
+</html>
